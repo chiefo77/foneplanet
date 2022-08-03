@@ -1,0 +1,73 @@
+/* Font family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --main-color:#0e4d0e!important;
+    --secondary-color:#e6f48d !important;
+
+
+}
+.navbar{
+    background: #000;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.navbar-brand span{
+    color: var(--main-color);
+}
+
+.navbar-brand span i{
+    color: white;
+
+}
+
+.navbar .nav-link{
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+}
+
+.navbar .nav-link.active{
+    font-size: 1.4rem;
+    color: var(--main-color)
+}
+
+.navbar .nav-link:hover{
+    color: var(--secondary-color);
+    background: var(--main-color);
+}
+
+/* carousel  */
+.carousel-inner{
+    height: 90vh;
+}
+
+/* intro */
+#main .display{
+    background-color: var(--secondary-color);
+    text-shadow:.4rem 0 .4rem 0 #000;
+}
+
+/* over-view Style */
+#overview-banner{
+    background-image: url(/Assets/image/overview.svg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* swipper */
+#testimony .swiper-button-next, .swiper-button-prev{
+    color: var(--main-color);
+}
+#testimony .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+    background-color: var(--main-color);
+}
